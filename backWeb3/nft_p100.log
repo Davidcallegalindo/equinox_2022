@@ -1,0 +1,39 @@
+INFO:uvicorn.error:Started server process [80260]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:uvicorn.error:Shutting down
+INFO:uvicorn.error:Finished server process [80260]
+INFO:uvicorn.error:ASGI 'lifespan' protocol appears unsupported.
+INFO:uvicorn.error:Started server process [80457]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+ERROR:root:FAILED KILLIT for 0x6A74324A51cC74B5C82F92154b63cb4d6F8B738A Exception:
+ 
+Could not identify the intended function with name `killit`, positional argument(s) of type `(<class 'str'>,)` and keyword argument(s) of type `{}`.
+Found 1 function(s) with the name `killit`: ['killit(uint256)']
+Function invocation failed due to no matching argument types.
+INFO:uvicorn.error:Shutting down
+INFO:uvicorn.error:Finished server process [80457]
+INFO:uvicorn.error:ASGI 'lifespan' protocol appears unsupported.
+INFO:uvicorn.error:Started server process [80586]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+ERROR:root:FAILED KILLIT for 0x6A74324A51cC74B5C82F92154b63cb4d6F8B738A Exception:
+ HTTPConnectionPool(host='localhost', port=8545): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104465d30>: Failed to establish a new connection: [Errno 61] Connection refused'))
+INFO:uvicorn.error:Shutting down
+INFO:uvicorn.error:Finished server process [80586]
+INFO:uvicorn.error:ASGI 'lifespan' protocol appears unsupported.
+INFO:uvicorn.error:Started server process [80757]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:root:idTX : 0x9ed98a4950f47ff20f14ccad77a5726ed27e75a38aa953162f2cd7f75cf4c812, to: 0x6A74324A51cC74B5C82F92154b63cb4d6F8B738A sc_action: airdrop
+INFO:uvicorn.error:Shutting down
+INFO:uvicorn.error:Finished server process [80757]
+INFO:uvicorn.error:ASGI 'lifespan' protocol appears unsupported.
+INFO:uvicorn.error:Started server process [54336]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:uvicorn.error:Shutting down
+INFO:uvicorn.error:Waiting for application shutdown.
+INFO:uvicorn.error:Application shutdown complete.
+INFO:uvicorn.error:Finished server process [54336]
